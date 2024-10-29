@@ -1,2 +1,4 @@
 # aulasdwI
-Projeto para desenvolvimento inicial de aula DW
+Projeto YouTube aula de DSM
+José Luiz Souza Santos 
+Miguel de Souza Alves
