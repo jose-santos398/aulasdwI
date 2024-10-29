@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(to bottom, #2a003c, #1c001f);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 140px; /* Largura da sidebar */
+    height: 100vh; /* Altura da sidebar até o fim da página */
+    background-color: rgba(41, 41, 41, 0.9); /* Fundo escuro com transparência */
+    color: rgb(255, 255, 255);
+    padding: 20px; /* Aumentado para mais espaço */
+    position: fixed;
+    top: 0; 
+    left: 0;
+    border-right: 2px solid #5c007c; /* Borda para destaque */
+    overflow-y: auto; /* Permite rolagem se necessário */
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+}
+
+.sidebar .navbar-brand {
+    font-size: 1.8rem; /* Aumentado para destaque */
+    color: #ffffff;
+    margin-bottom: 20px; /* Espaçamento abaixo da marca */
+}
+
+.sidebar .nav-link {
+    color: #e1e1e1;
+    padding: 12px 15px; /* Aumentado o padding */
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    display: flex; /* Para alinhar ícones e texto */
+    align-items: center; /* Alinhamento vertical */
+}
+
+.sidebar .nav-link:hover {
+    background-color: #5c007c; /* Cor ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.main-content {
+    margin-left: 220px; /* Deixa espaço para a sidebar */
+    padding: 20px;
+}
+
+.header {
+    background-color: #5c007c;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.video-main iframe,
+.video-thumbnail iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.video-thumbnail {
+    margin-bottom: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.video-thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.6);
+}
+
+.card {
+    background-color: #4a004a;
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.card-text {
+    color: #e1e1e1;
+}
+
+.bg-success {
+    background-color: #5c007c !important;
+}
