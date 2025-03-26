@@ -1,5 +1,8 @@
-# aulasdwI
-# Projeto YouTube aula de DSM
-https://jose-santos398.github.io/aulasdwI/
-* José Luiz Souza Santos 
-* Miguel de Souza Alves
+# aulasdwII
+https://jose-santos398.github.io/aulasdwII/
+
+_Cleverson Amorim de Lima_
+RA:2171392421020
+
+_José Luiz Souza Santos_
+RA:2171392421038
