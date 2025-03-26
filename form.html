@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Estudantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestão de Estudantes</h1>
+        <div class="card">
+            <div class="form-group">
+                <label for="id">ID do Estudante:</label>
+                <input type="text" id="id" placeholder="Obrigatório exceto para Novo">
+            </div>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite o nome completo">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite o email válido">
+            </div>
+            <div class="actions">
+                <button id="btnNovo" class="btn-primary">Novo Cadastro</button>
+                <button id="btnBuscar" class="btn-info">Buscar</button>
+                <button id="btnAlterar" class="btn-warning">Alterar</button>
+                <button id="btnApagar" class="btn-danger">Apagar</button>
+                <button id="btnLimpar" class="btn-secondary">Limpar</button>
+            </div>
+            <div id="message" class="message"></div>
+        </div>
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>
